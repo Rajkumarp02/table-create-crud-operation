@@ -1,0 +1,35 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Raja",
+      "sex": "Male",
+      "phoneNumber": 8765432190,
+      "totalMarks": 456
+    },
+    {
+      "id": 2,
+      "name": "Rakesh",
+      "sex": "Male",
+      "phoneNumber": 9876452310,
+      "totalMarks": 432
+    },
+    {
+      "id": 3,
+      "name": "vijay",
+      "sex": "Male",
+      "phoneNumber": 9785644321,
+      "totalMarks": 475
+    },
+    {
+      "id": 4,
+      "name": "Ravi",
+      "sex": "Male",
+      "phoneNumber": 8765435221,
+      "totalMarks": 449
+    },
+    {
+      "id": 5
+    }
+  ]
+}
