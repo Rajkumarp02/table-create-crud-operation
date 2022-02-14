@@ -2,7 +2,7 @@
 //import React from "react";
 import React, {Component} from "react";
 import axios from "axios";
-import Table from "./components/Table.js"
+//import Table from "./components/Table.js"
 //import Table from "./components/Table.js";
 //import {getStudent} from "./components/db.js"
 import Form from "./components/Form.js"
@@ -163,13 +163,7 @@ render(){
             totalMarks={this.state.totalMarks}
           </Form>
           
-
-         {/*  <Table>
-            student={this.state.student}
-          </Table> */}
-
-
-          
+           <div>
             <table className="table">
             <thead className="thead-dark" >
               <tr>
@@ -205,6 +199,7 @@ render(){
                
          </tbody>
           </table>  
+          </div>
           
 
         </div>
