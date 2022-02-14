@@ -8,9 +8,11 @@ import axios from "axios";
 import Form from "./components/Form.js"
 
   class Student extends Component{
+
     
-       
-        state = {
+       constructor(prpos){
+         super()
+        this.state = {
           student:[],
           addStudent:{
           name:"",
@@ -25,16 +27,16 @@ import Form from "./components/Form.js"
           phoneNUmber:"",
           totalMarks:""
           }
-          
         }
-        /* this.onChangeName = this.onChangeName.bind(this);
+        
+         this.onChangeName = this.onChangeName.bind(this);
         this.onChangeSex  = this.onChangeSex.bind(this);
         this.onChangePhone = this.onChangePhone.bind(this);
         this.onChangeMarks = this.onChangeMarks.bind(this);
         this.onSubmit=this.onSubmit.bind(this);
         this.addStudent=this.addStudent.bind(this);
-        */
-          
+      }
+        
     
     
   
@@ -152,7 +154,7 @@ render(){
     return(
         <div>
           <Form>
-             ChangeName = {this.onChangeName}
+            ChangeName = {this.onChangeName}
             ChangeMarks={this.onChangeMarks}
             ChangeSex={this.onChangeSex}
             ChangePhone={this.onChangePhone} 
