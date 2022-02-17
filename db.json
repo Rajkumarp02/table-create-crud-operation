@@ -1,35 +1,60 @@
 {
- "student" : [
+  "student": [
     {
       "id": 1,
       "name": "Raja",
-      "sex" :"Male",
+      "sex": "Male",
       "phoneNumber": 9876890976,
       "totalMarks": 444
-
-          
     },
     {
       "id": 2,
       "name": "Rakesh",
-      "sex" :"Male",
+      "sex": "Male",
       "phoneNumber": 9876452310,
       "totalMarks": 432
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Leo",
-      "sex" :"Male",
+      "sex": "Male",
       "phoneNumber": 7094058538,
       "totalMarks": 440
     },
     {
       "id": 4,
       "name": "Gold",
-      "sex" :"Male",
+      "sex": "Male",
       "phoneNumber": 6382209795,
       "totalMarks": 488
+    },
+    {
+      "name": "Narmu",
+      "sex": "Female",
+      "phoneNumber": 6382209795,
+      "totalMarks": 499,
+      "id": 5
+    },
+    {
+      "name": "Rajkumar",
+      "sex": "male",
+      "phoneNumber": 7094058536,
+      "totalMarks": 500,
+      "id": 6
+    },
+    {
+      "name": "indhu",
+      "sex": "Female",
+      "phoneNumber": 6383124537,
+      "totalMarks": 364,
+      "id": 7
+    },
+    {
+      "name": "RaviKumar",
+      "sex": "Male",
+      "phoneNumber": 6382209795,
+      "totalMarks": 500,
+      "id": 8
     }
   ]
-  
-  }
+}
